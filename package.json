@@ -1,0 +1,19 @@
+{
+  "name": "god",
+  "version": "1.0.0",
+  "description": "god",
+  "main": "index.js",
+  "scripts": {
+    "god": "lite-server"
+  },
+  "author": "Tony Medrano",
+  "license": "MIT",
+  "devDependencies": {
+    "karma": "^1.5.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-jasmine": "^1.1.0",
+    "systemjs": "^0.20.11",
+    "systemjs-plugin-traceur": "0.0.3",
+    "traceur": "0.0.111"
+  }
+}

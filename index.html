@@ -1,0 +1,21 @@
+<html>
+<head>
+	<title>God</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="God development">
+	<meta name="keywords" content="HTML,CSS,JavaScript">
+	<meta name="author" content="Tony Medrano">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+	<script src="node_modules/systemjs/dist/system.js"></script>
+</head>
+<body>
+<script src="systemjs.config.js"></script>
+<script>
+  SystemJS.import('./app.js').then(function(m) {
+      console.log(new m.App().god);
+    });
+</script>	
+</body>
+</html>
